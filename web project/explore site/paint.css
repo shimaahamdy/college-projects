@@ -1,0 +1,388 @@
+body
+{
+    direction: rtl;
+    background-color: snow;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+
+}
+.cont{
+    width:70%;
+    padding: 7px;
+
+}
+
+img{
+    margin-right: 10px
+}
+img ,.paint{
+    border-radius: 30px;
+    float: left;
+}
+
+
+
+
+}
+.container
+{
+    width: 1170;
+    margin: auto;
+}
+.clear
+{
+    clear:both;
+}
+/****************************************************/
+.navbar
+{
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    background-color: black;
+
+
+}
+.navbar ul
+{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+
+}
+.navbar ul li
+{
+    float:right;
+}
+.navbar ul li a
+{
+    background-color: black;
+    font-family: cursive;
+    color: whitesmoke;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+     text-align: center;
+
+}
+.navbar ul li a:hover{
+    background-color: firebrick;
+}
+#logo
+{
+    float: left;
+    font-family: bold;
+    font-size: 24px;
+}
+.header .imag
+{
+    margin: 10px;
+    padding: 3px;
+}
+.header .imag .hd
+{
+    float: left;
+    width: 18%;
+    height: 140px;
+    color:firebrick;
+    font-size: 30px;
+}
+.header .imag .word
+{
+    float:left;
+    width: 30%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align:center;
+    padding: 10px;
+    color: firebrick;
+    font-size: 20px;
+}
+.header .imag .ico
+{
+    float:left;
+    width: 40%;
+    margin-left: 10px;
+
+}
+.header .imag .ico input
+{
+    margin-top: 20px;
+    width: 400px;
+    height: 33px;
+    margin-bottom: 10px;
+    background-color: ;
+
+}
+.header .imag .ico a
+{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+/************ star of slider**************/
+
+.slider
+{
+    background-color: cadetblue;
+    width: 980px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+/**************** star our deoartment***************/
+.paint
+{   
+    
+    float: right;
+    width: 700;
+    height: 200px;
+    margin: 10px;
+     border: 3px solid darkcyan;  
+     background-color: bisque;
+        border-radius: 15px;
+
+}
+
+
+.depart h2
+{
+    color: maroon;
+}
+.depart img
+{ margin: 30px;
+    border-radius: 15px;
+}
+.depart img:hover
+{
+    opacity:0.8;
+}
+.adress{
+    text-align: center;
+}
+
+
+
+/**********stories**********/
+.stories .story .img img {
+  height: 250px ;
+  width: 300px ;
+  border-radius: 15px ;
+  float: right;
+}
+
+.stories .story .img img:hover{
+  opacity: 0.8 ;
+}
+
+.stories .story .cont {
+  float:right;
+  height: 250px ;
+  border-radius: 15px ;
+  width: 465px ;
+  margin-right: 10px ;
+  color: black;
+  background-color: snow ;
+    margin-bottom: 10px;
+
+}
+.adress{
+    text-align: center;
+}
+.stories .story .cont h2{
+  color: firebrick;
+}
+
+/************topics************/
+.topic1{
+  text-align: center;
+}
+.topic1 h2{
+  color:firebrick;
+  text-align: center;
+
+}
+.topic1 img{
+  border-style: solid;
+  border-radius: 12px ;
+  border-color: darkgray;
+  border-width: 10px ;
+}
+
+.topic2{
+  color:firebrick;
+  text-align: center;
+
+}
+.topic2 img{
+  border-style: solid;
+  border-radius: 12px ;
+  border-color: darkgray;
+  border-width: 10px ;
+}
+
+
+/*********** last stories*************/
+.headmain
+{
+    height: 50px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+}
+
+.lastnews
+{
+    height: 290px;
+    background-color: blanchedalmond;
+    margin-bottom: 50px;
+}
+/* *******************start notes***************************/
+.notes
+{
+    height: 400px;
+}
+.notes .aboutus
+{
+    float: left;
+    width: 35.333333%;
+    height: 400px;
+}
+.notes .aboutus h3
+{
+    color: firebrick;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.notes .aboutus p
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: firebrick;
+    margin: 5px;
+}
+
+
+.notes .not
+{
+    width: 29%;
+    height: 400px;
+    float: left;
+}
+.notes .not .note1
+{
+    padding: 7px;
+    height: 25.33333%;
+    margin: 10px;
+}
+.notes .not .note1 a
+
+{
+    font-size: 32px;
+    text-decoration: none;
+
+}
+.notes .not .note1 a:hover{
+
+    color: gray;
+}
+.media
+{
+    height: 400px;
+}
+.media .social
+{
+    width: 30.33333%;
+  margin: 10px;
+    text-align: center;
+    float: left;
+    height: 350px;
+    color: white;
+}
+.media .social img
+{
+    opacity: 0.9;
+    margin-top: 80px;
+}
+.media .social img:hover
+{
+    opacity: 1;
+}
+.media .social ul li
+{
+    padding: 10px;
+
+}
+.media .social a
+{
+    text-decoration: none;
+    padding: 5px;
+    color: firebrick;
+}
+#tell
+{
+    background-color: white;
+    color: darkred;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+#tell:hover
+{
+    background-color: darkred;
+    color:white;
+}
+.media .social a:hover
+{
+    background-color: firebrick;
+    color: white;
+}
+
+.media .social .icobut:hover
+{
+    background-color: white;
+}
+#form
+{
+    color: firebrick;
+    padding: 20px;
+    text-align: right;
+}
+#form a
+{
+    color: #3D3C3A;
+
+}
+#form a:hover
+{
+    color:grey;
+    background-color: snow;
+    text-decoration: underline;
+}
+.footer
+{
+    background-color: #3D3C3A;
+    color: white;
+    text-align: center;
+        margin-top: 40px;
+
+}
+.footer a
+{
+    color: floralwhite;
+    text-decoration: none;
+    padding: 10px;
+}
+.footer a:hover
+{
+    text-decoration: underline;
+    color: darkgray;
+
+}

@@ -1,0 +1,116 @@
+.hr
+{
+    width: 100px;
+    height: 5px;
+    background-color: gainsboro;
+    display: inline-block
+           margin: 8px;
+
+}
+.box
+{
+    margin-top: 20px;
+}
+.sbox
+{
+    height: 100px;
+    background-color: white;
+   margin: 8px;
+    border:0.5px solid gainsboro;
+    border-radius: 15px;
+    
+    
+
+}
+.sbox img
+{
+    border-radius: 15px;
+}
+
+/* star contain of bage*/
+.contain
+{
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.contain .sidenavbar
+{
+    float: right;
+    width:28%;
+    height: 1500px;
+    font-size: 22px;
+}
+
+.contain .sidenavbar .links
+{
+
+}
+.contain .sidenavbar .links ul
+{
+    list-style-type: none;
+    padding: 10px;
+}
+.contain .sidenavbar .links ul li
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+}
+.contain .sidenavbar .links ul li a
+{
+    text-decoration: none;
+    color: firebrick;
+    padding: 20px;
+}
+.contain .sidenavbar .links ul li a:hover
+{
+    color: gray;
+    
+}
+
+.contain .stories
+{
+    width: 70%;
+    float: left;
+        margin-top: 100px;
+
+}
+.contain .stories .story
+{
+    margin:10px;
+    width: 95%;
+    border:0.5px solid gainsboro;
+    height: 250px;
+    
+}
+.contain .stories .story img
+{
+    border-radius: 15px;
+}
+.contain .stories .story img:hover
+{
+    opacity: 0.9;
+}
+.contain .stories .story h3
+{
+    color: maroon;
+    margin-right: 320px;
+}
+
+.contain .stories .story p
+{
+    margin-right: 310;
+
+}
+.sidword
+{
+    font-size: 17px;
+}
+.hd
+{
+    color: maroon;
+}

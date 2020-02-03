@@ -1,0 +1,69 @@
+/**********stories**********/
+.stories .story .img img {
+  height: 250px ;
+  width: 300px ;
+  border-radius: 15px ;
+  float: right;
+}
+
+.stories .story .img img:hover{
+  opacity: 0.8 ;
+}
+
+.stories .story .cont {
+  float:right;
+  height: 250px ;
+  border-radius: 15px ;
+  width: 465px ;
+  margin-right: 10px ;
+  color: black;
+  background-color: snow ;
+
+}
+.stories .story .cont h2{
+  color: firebrick;
+}
+
+ .stories .story .cont a:link {
+    text-decoration: none;
+    color: firebrick;
+}
+.stories .story .cont a:visited {
+    text-decoration: none;
+    color: brown ;
+}
+
+.stories .story .cont a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+ .stories .story .cont a:active {
+    text-decoration: underline;
+}
+/************topics************/
+.topic1{
+  color:firebrick;
+  text-align: center;
+
+}
+.topic1 img{
+  border-style: solid;
+  border-radius: 12px ;
+  border-color: darkgray;
+  border-width: 4px ;
+  width: 700px;
+  height:450px 
+}
+
+.topic2{
+  color:black;
+  text-align: center;
+  margin: 35px;
+  line-height: 38px;
+}
+.topic3
+{
+    margin-right:30px;
+    color: firebrick;
+}

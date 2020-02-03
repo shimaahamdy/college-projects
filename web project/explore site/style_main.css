@@ -1,0 +1,648 @@
+body
+{
+    direction: rtl;
+    background-color: snow;
+    padding:0;
+    font-size: 20px;
+    margin: 0;
+    
+   
+
+}
+/*start log in form*/
+input[name=uname], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    float: left;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 16px;
+    overflow: auto;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 35px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 3% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw , span.password {
+       display: block;
+       float: none;
+    }
+    .cancelbtn , .cancel {
+       width: 100%;
+    }
+}
+
+/*start log in form*/
+.container
+{
+    width: 1170;
+    margin: auto;
+}
+.clear
+{
+    clear:both;
+}
+/*start sighn up form*/
+/* Full-width input fields */
+input[name=noname], input[name=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[name=noname]:focus, input[name=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Extra styles for the cancel button */
+.cancel {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancel, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.cont {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.model {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   /* background-color: #474e5d;*/
+     background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.model-content {
+    background-color: #fefefe;
+    margin: 2% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 35%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.closeB {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.closeB:hover,
+.closeB:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+/****************************************************/
+.navbar
+{
+    padding: 0;
+    margin:0;
+    background-color: black;
+    overflow: hidden;
+    
+}
+.navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar ul li
+{
+    float:right;
+}
+.navbar ul li a
+{
+    background-color: black;
+    font-family: cursive;
+    color: whitesmoke;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+     text-align: center;
+
+}
+.navbar ul li a:hover{
+    background-color: firebrick;
+}
+#logo
+{
+    float: left;
+    font-family: bold;
+    font-size: 24px;
+}
+.header .imag
+{
+    margin: 10px;
+    padding: 3px;
+}
+.header .imag .hd
+{
+    float: left;
+    width: 18%;
+    height: 140px;
+    margin-left: 100px;
+   padding: 10px;
+    
+}
+.header .imag .word
+{
+    float:left;
+    width: 30%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align:center;
+    padding: 10px;
+    color: firebrick;
+    font-size: 20px;
+}
+.header .imag .ico
+{
+    float:left;
+    width: 40%;
+    margin-left: 10px;
+
+}
+
+.header .imag .ico a
+{
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+}
+/*search*/
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+input[name=myCountry] , input[type=submit] {
+  border: 1px solid transparent;
+  background-color: white;
+  padding: 5px;
+  font-size: 16px;
+    margin-top: 20px;
+    height: 33px;
+    
+}
+input[name=myCountry]{
+  background-color:;
+  width: 100%;
+    border-color: black;
+}
+input[type=submit] {
+  background-color: firebrick;
+  color: #fff;
+  cursor: pointer;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #cce6ff; 
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+/************ star of slider**************/
+
+.slider
+{
+    direction: ltr;
+    width: 980px;
+    height: 500px;
+        margin: auto;
+margin-top: 50px;
+    margin-bottom: 120px;
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 980px;
+  position: relative;
+  height: 500px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: whitesmoke;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: black;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+    
+/**************** star our deoartment***************/
+.depart
+{
+    float: left;
+    width: 47.999999999%;
+    height: 550px;
+    text-align: center;
+    margin: 10px;
+}
+
+.depart h2
+{
+    color: maroon;
+}
+.depart img
+{
+    border-radius: 15px;
+}
+.depart img:hover
+{
+    opacity:0.8;
+}
+
+/*********** last stories*************/
+
+/* *******************start notes***************************/
+.notes
+{
+    height: 400px;
+    margin-top: 150px;
+}
+.notes .aboutus
+{
+    float: left;
+    width: 35.333333%;
+    height: 400px;
+}
+.notes .aboutus h3
+{
+    color: maroon;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+.notes .aboutus p
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 25px;
+}
+
+
+.notes .not
+{
+    width: 29%;
+    height: 400px;
+    float: left;
+}
+.notes .not .note1
+{
+    padding: 7px;
+    height: 25.33333%;
+    margin: 10px;
+}
+.notes .not .note1 a
+
+{
+    font-size: 32px;
+    text-decoration: none;
+    
+}
+.notes .not .note1 a:hover{
+
+    color: gray;
+}
+.media
+{
+    height: 400px;
+}
+.media .social
+{
+    width: 30.33333%;
+  margin: 10px;
+    text-align: center;
+    float: left;
+    height: 350px;
+    color: white;
+}
+.media .social img
+{
+    opacity: 0.9;
+    margin-top: 80px;
+}
+.media .social img:hover
+{
+    opacity: 1;
+}
+.media .social ul li
+{
+    padding: 10px;
+
+}
+.media .social a
+{
+    text-decoration: none;
+    padding: 5px;
+    color: firebrick;
+}
+#tell
+{
+    background-color: white;
+    color: darkred;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+#tell:hover
+{
+    background-color: darkred;
+    color:white;
+}
+.media .social a:hover
+{
+    background-color: firebrick;
+    color: white;
+}
+
+.media .social .icobut:hover
+{
+    background-color: white;
+}
+#form
+{
+    color: firebrick;
+    padding: 20px;
+    text-align: right;
+}
+#form a
+{
+    color: #3D3C3A;
+
+}
+#form a:hover
+{
+    color:grey;
+    background-color: snow;
+    text-decoration: underline;
+}
+.footer
+{
+    background-color: #3D3C3A;
+    color: white;
+    text-align: center;
+        margin-top: 40px;
+
+}
+.footer a
+{
+    color: floralwhite;
+    text-decoration: none;
+    padding: 10px;
+}
+.footer a:hover
+{
+    text-decoration: underline;
+    color: darkgray;
+    
+}
+
